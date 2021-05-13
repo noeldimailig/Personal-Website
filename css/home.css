@@ -1,0 +1,67 @@
+/* home section */
+.home-section{
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.home-section .container{
+	width: 80%;
+	height: 90%;
+	background: var(--sec);
+
+	display: grid;
+	grid-template-areas: "desc image";
+	align-items: center;
+	justify-content: center;
+}
+.home-section .container .text{
+	width: 600px;
+	height: 500px;
+	margin-left: 20px;
+	grid-area: desc;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.home-section .container .text h1{
+	color: var(--pri);
+	font-size: 50px;
+	font-weight: 600;
+	color: var(--pri);
+}
+.home-section .container .text h2{
+	color: var(--pri);
+	font-size: 30px;
+	font-weight: 500;
+}
+.home-section .container .text h2 span{
+	color: var(--quar);
+	font-size: 54px;
+	font-weight: 600;
+}
+.home-section .container .text a{
+	padding: 5px;
+	width: 140px;
+	color: var(--pri);
+	background: var(--sec);
+	font-size: 20px;
+	font-weight: 400;
+	border: 1px solid var(--quar);
+	border-radius: 5px; 
+	text-align: center;
+}
+.home-section .container .text a:hover{
+	color: var(--sec);
+	border: 1px solid var(--pri);
+	background: var(--pri);
+}
+.home-section .container img{
+	width: 360px;
+	height: 360px;
+	border-radius: 50%;
+	grid-area: image;
+}

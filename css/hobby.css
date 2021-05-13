@@ -1,0 +1,189 @@
+/* Hobby Section */
+.hobby-section {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hobby-section .wrapper {
+  margin-bottom: 40px;
+  width: 80%;
+  height: 100vh;
+  background: var(--sec);
+
+  display: grid;
+  grid-template-areas:
+    "head head head "
+    "hob1 hob2 hob3"
+    "hob4 hob5 hob6";
+  align-items: center;
+  justify-content: center;
+}
+.hobby-section .wrapper i {
+  color: var(--pri);
+  padding-top: 10px;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.hobby-section .wrapper p {
+  color: var(--pri);
+  padding: 20px;
+  font-size: 12px;
+  text-align: justify;
+}
+.hobby-section .wrapper h3 {
+  color: var(--pri);
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.hobby-section .wrapper h2 {
+  color: var(--pri);
+  font-size: 30px;
+  font-weight: 500;
+
+  grid-area: head;
+  text-align: center;
+}
+.hobby-section .images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.hobby-section .images img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+.hobby-section .wrapper .watch {
+  margin-left: 20px;
+  height: 275px;
+  background: var(--sec);
+  border-radius: 10px;
+  border: 1px solid var(--quar);
+  grid-area: hob1;
+
+  display: grid;
+  grid-template-areas:
+    "head head head"
+    "desc desc desc"
+    "img img img";
+  align-items: center;
+  justify-content: center;
+}
+.hobby-section .wrapper .watch i {
+  grid-area: head;
+}
+.hobby-section .wrapper .watch .desc {
+  grid-area: desc;
+}
+.hobby-section .wrapper .watch .images {
+  grid-area: img;
+}
+.hobby-section .wrapper .code {
+  margin: 10px;
+  height: 275px;
+  background: var(--sec);
+  border-radius: 10px;
+  border: 1px solid var(--quar);
+  grid-area: hob2;
+
+  display: grid;
+  grid-template-areas:
+    "head head head"
+    "desc desc desc"
+    "img img img";
+  align-items: center;
+  justify-content: center;
+}
+.hobby-section .wrapper .code i {
+  grid-area: head;
+}
+.hobby-section .wrapper .code .desc {
+  grid-area: desc;
+}
+.hobby-section .wrapper .code .images {
+  grid-area: img;
+}
+.hobby-section .wrapper .read {
+  margin-right: 20px;
+  height: 275px;
+  background: var(--sec);
+  border-radius: 10px;
+  border: 1px solid var(--quar);
+  grid-area: hob3;
+
+  display: grid;
+  grid-template-areas:
+    "head head head"
+    "desc desc desc"
+    "img img img";
+  align-items: center;
+  justify-content: center;
+}
+.hobby-section .wrapper .read i {
+  grid-area: head;
+}
+.hobby-section .wrapper .read .desc {
+  grid-area: desc;
+}
+.hobby-section .wrapper .read .images {
+  grid-area: img;
+}
+.hobby-section .wrapper .listen {
+  margin: 20px;
+  margin-top: 0;
+  height: 275px;
+  background: var(--sec);
+  border-radius: 10px;
+  border: 1px solid var(--quar);
+  grid-area: hob4;
+
+  display: grid;
+  grid-template-areas:
+    "head head head"
+    "desc desc desc"
+    "img img img";
+  align-items: center;
+  justify-content: center;
+}
+.hobby-section .wrapper .listen i {
+  grid-area: head;
+}
+.hobby-section .wrapper .listen .desc {
+  grid-area: desc;
+}
+.hobby-section .wrapper .listen .images {
+  grid-area: img;
+}
+.hobby-section .wrapper .eat {
+  margin: 20px;
+  margin-top: 0;
+  margin-right: 0;
+  height: 275px;
+  background: var(--sec);
+  border-radius: 10px;
+  border: 1px solid var(--quar);
+
+  display: grid;
+  grid-template-areas:
+    "head head head"
+    "desc desc desc"
+    "img img img";
+  align-items: center;
+  justify-content: center;
+}
+.hobby-section .wrapper .eat i {
+  grid-area: head;
+}
+.hobby-section .wrapper .eat .desc {
+  grid-area: desc;
+}
+.hobby-section .wrapper .eat .images {
+  grid-area: img;
+}

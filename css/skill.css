@@ -1,0 +1,147 @@
+/* Skill Section */
+.skill-section{
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.skill-section .wrapper{
+	margin: 40px 0;
+	width: 80%;
+	background: var(--sec);
+
+	display: grid;
+	grid-template-areas: 
+	"head head head"
+	"skill1 skill2 skill3"
+	"skill1 skill2 skill3"
+	"skill1 skill2 skill3";
+	align-items: center;
+	justify-content: center;
+}
+.skill-section .wrapper h2{
+	color: var(--pri);
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	grid-area: head;
+	text-align: center;
+}
+.skill-section .wrapper i{
+	color: var(--pri);
+	font-size: 40px;
+	border-radius: 50%;
+	text-align: center;
+}
+.skill-section .wrapper p{
+	color: var(--pri);
+	padding: 0 20px;
+	font-size: 14px;
+	text-align: justify;
+}
+.skill-section .wrapper h3{
+	color: var(--pri);
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.skill-section .images img{
+	width: 35px;
+	height: 35px;
+}
+
+.skill-section .wrapper .drive{
+	padding: 25px 10px;
+	margin:  0 20px;
+	height: 400px;
+	background: var(--sec);
+	border-radius: 10px;
+	border: 1px solid var(--quar);
+	grid-area: skill1;
+
+	display: grid;
+	grid-template-areas: 
+	"head head head"
+	"desc desc desc"
+	"img img img";
+	align-items: center;
+	justify-content: center;
+}
+.skill-section .wrapper .drive i{
+	grid-area: head;
+}
+.skill-section .wrapper .drive .desc{
+	grid-area: desc;
+}
+.skill-section .wrapper .drive .images{
+	grid-area: img;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.skill-section .wrapper .edit{
+	padding: 25px 10px;
+	margin: 20px;
+	height: 400px;
+	background: var(--sec);
+	border-radius: 10px;
+	border: 1px solid var(--quar);
+	grid-area: skill2;
+
+	display: grid;
+	grid-template-areas: 
+	"head head head"
+	"desc desc desc"
+	"img img img";
+	align-items: center;
+	justify-content: center;
+}
+.skill-section .wrapper .edit i{
+	grid-area: head;
+}
+.skill-section .wrapper .edit .desc{
+	grid-area: desc;
+}
+.skill-section .wrapper .edit .images{
+	grid-area: img;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.skill-section .wrapper .code{
+	padding: 25px 10px;
+	margin: 20px;
+	height: 400px;
+	background: var(--sec);
+	border-radius: 10px;
+	border: 1px solid var(--quar);
+	grid-area: skill3;
+
+	display: grid;
+	grid-template-areas: 
+	"head"
+	"desc"
+	"img";
+	align-items: center;
+	justify-content: center;
+}
+.skill-section .wrapper .code i{
+	grid-area: head;
+}
+.skill-section .wrapper .code .desc{
+	grid-area: desc;
+}
+.skill-section .wrapper .code .images{
+	grid-area: img;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.skill-section .wrapper .code .images img{
+	padding: 5px;
+}

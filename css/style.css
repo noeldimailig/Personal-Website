@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import url(nav.css);
+@import url(home.css);
+@import url(about.css);
+@import url(skill.css);
+@import url(hobby.css);
+@import url(plan.css);
+@import url(contact.css);
+@import url(footer.css);
+
+/* Default Style */
+:root {
+  --pri: #000000; /* color */
+  --sec: #ffffff; /* main content */
+  --ter: #ededed; /* body */
+  --quar: #8a8a8e; /* border */
+}
+.dark {
+  --pri: #ffffff; /* color */
+  --sec: #000000; /* main content */
+  --ter: #1A1A1B; /* body */
+  --quar: #8a8a8e; /* border */
+}
+* {
+  padding: 0;
+  margin: 0;
+  color: var(--sec);
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: var(--ter);
+}
+h1 {
+  font-weight: 600;
+}
+h2 {
+  font-weight: 500;
+}
+h3 {
+  font-weight: 500;
+}
+ul {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

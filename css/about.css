@@ -1,0 +1,116 @@
+/* About Section*/
+.about-section {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-section .wrapper {
+  margin: 5px 0 0 0;
+  width: 80%;
+  height: 645.7px;
+  background: var(--sec);
+
+  display: grid;
+  grid-template-areas:
+    "head head"
+    "me parent"
+    "me bro"
+    "me sis";
+  align-items: stretch;
+  justify-content: center;
+}
+.about-section .wrapper h2 {
+  color: var(--pri);
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 500;
+
+  grid-area: head;
+  text-align: center;
+}
+.about-section .wrapper p {
+  color: var(--pri);
+  padding: 18px;
+  font-size: 14px;
+  text-align: justify;
+}
+.about-section .wrapper h3 {
+  color: var(--pri);
+  font-size: 18px;
+}
+.about-section .wrapper img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+.about-section .wrapper .me {
+  padding-right: 20px;
+  width: 475px;
+  height: 558px;
+  background: var(--sec);
+  border-radius: 8px;
+  grid-area: me;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-section .desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-section .wrapper .me img {
+  width: 300px;
+  height: 300px;
+  border-radius: none;
+}
+.about-section .wrapper .parent {
+  height: 180px;
+  width: 475px;
+  background: var(--sec);
+  border-radius: 8px;
+  border: 1px solid var(--quar);
+  grid-area: parent;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-section .descp {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about-section .wrapper .bro {
+  height: 180px;
+  width: 475px;
+  background: var(--sec);
+  border-radius: 8px;
+  border: 1px solid var(--quar);
+  grid-area: bro;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-section .wrapper .sis {
+  height: 180px;
+  width: 475px;
+  background: var(--sec);
+  border-radius: 8px;
+  border: 1px solid var(--quar);
+  grid-area: sis;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

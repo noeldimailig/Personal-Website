@@ -1,0 +1,115 @@
+/* Future Plan */
+.plan-section {
+  width: 100vw;
+  height: 65vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plan-section .wrapper {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 80%;
+  height: 90%;
+  background: var(--sec);
+
+  display: grid;
+  grid-template-areas:
+    "head head head "
+    "career stocks currency";
+  align-items: center;
+  justify-content: space-around;
+}
+.plan-section .wrapper p {
+  color: var(--pri);
+  padding: 20px;
+  font-size: 12px;
+  text-align: justify;
+}
+.plan-section .wrapper h3 {
+  color: var(--pri);
+  font-size: 18px;
+  text-align: center;
+}
+.plan-section .wrapper h2 {
+  color: var(--pri);
+  font-size: 30px;
+  font-weight: 500;
+
+  grid-area: head;
+  text-align: center;
+}
+.plan-section .wrapper .images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plan-section .wrapper .images img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+.plan-section .wrapper .career {
+  height: 280px;
+  width: 320px;
+  background: var(--sec);
+  border-radius: 10px;
+  border: 1px solid var(--quar);
+  grid-area: career;
+
+  display: grid;
+  grid-template-areas:
+    "desc"
+    "img";
+  align-items: center;
+  justify-content: center;
+}
+.plan-section .wrapper .career .desc {
+  grid-area: desc;
+}
+.plan-section .wrapper .career .images {
+  grid-area: img;
+}
+.plan-section .wrapper .stocks {
+  height: 280px;
+  width: 320px;
+  background: var(--sec);
+  border-radius: 10px;
+  border: 1px solid var(--quar);
+  grid-area: stocks;
+
+  display: grid;
+  grid-template-areas:
+    "desc"
+    "img";
+  align-items: center;
+  justify-content: center;
+}
+.plan-section .wrapper .stocks .desc {
+  grid-area: desc;
+}
+.plan-section .wrapper .stocks .images {
+  grid-area: img;
+}
+.plan-section .wrapper .currency {
+  height: 280px;
+  width: 320px;
+  background: var(--sec);
+  border-radius: 10px;
+  border: 1px solid var(--quar);
+  grid-area: currency;
+
+  display: grid;
+  grid-template-areas:
+    "desc"
+    "img";
+  align-items: center;
+  justify-content: center;
+}
+.plan-section .wrapper .currency .desc {
+  grid-area: desc;
+}
+.plan-section .wrapper .currency .images {
+  grid-area: img;
+}

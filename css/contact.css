@@ -1,0 +1,136 @@
+/* Contact Section */
+.contact-section{
+	width: 100vw;
+	height: auto; 
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contact-section .wrapper{
+	margin-bottom: 40px;
+	width: 80%;
+	height: 80vh;
+	background: var(--sec);
+
+	display: grid;
+	grid-template-areas: 
+	"head head "
+	"details message";
+	align-items: center;
+	justify-content: space-between;
+}
+.contact-section .wrapper h2{
+	color: var(--pri);
+	font-size: 30px;
+	grid-area: head;
+	text-align: center;
+}
+.contact-section .wrapper h3{
+	color: var(--pri);
+}
+.contact-section .wrapper .details{
+	width: 458px;
+	height: 400px;
+	margin: 30px;
+	background: var(--sec);
+	border: 1px solid #8A8A8E;
+	border-radius: 10px;
+	grid-area: details;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.contact-section .wrapper .details span i{
+	color: var(--quar);
+	margin-right: 20px;
+}
+.contact-section .wrapper .details i{
+	color: var(--pri);
+	margin-right: 20px;
+}
+.contact-section .wrapper .details i:hover{
+	color: var(--quar);
+}
+.contact-section .wrapper .details .social{
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.contact-section .wrapper .details h3{
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+.contact-section .wrapper .details span{
+	color: var(--pri);
+	width: 75%;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	border: 1px solid var(--quar);
+	border-radius: 8px; 
+	display: inline-block;
+}
+.contact-section .wrapper .message{
+	width: 500px;
+	height: 400px;
+	margin: 30px;
+	background: var(--sec);
+	border-radius: 10px;
+	border: 1px solid var(--quar);
+	grid-area: message;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contact-section .wrapper form{
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-section .wrapper input[type="text"]{
+	color: var(--pri);
+	width: 95%;
+	padding: 5px 10px;
+	background: var(--sec);
+	margin-bottom: 10px;
+	border: 1px solid var(--quar);
+	border-radius: 5px; 
+}
+.contact-section .wrapper input[type="submit"]{
+	width: 80px;
+	padding: 8px;
+	color: var(--pri);
+	border-radius: 5px; 
+	border: 1px solid var(--pri);
+	background: var(--sec);
+	font-weight: 500;
+}
+.contact-section .wrapper input[type="submit"]:hover{
+	color: var(--sec);
+	background: var(--pri);
+	font-weight: 500;
+}
+.contact-section .wrapper h3{
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.contact-section .wrapper label{
+	color: var(--pri);
+	margin-bottom: 10px;
+}
+.contact-section .wrapper textarea{
+	width: 95%;
+	height: 115px;
+	background: var(--sec);
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	border: 1px solid var(--quar);
+	border-radius: 5px; 
+}
