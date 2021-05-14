@@ -126,7 +126,6 @@
 	margin-bottom: 10px;
 }
 .contact-section .wrapper textarea{
-	color: var(--pri);
 	width: 95%;
 	height: 115px;
 	background: var(--sec);
@@ -134,4 +133,5 @@
 	padding: 5px 10px;
 	border: 1px solid var(--quar);
 	border-radius: 5px; 
+	color: var(--pri);
 }
